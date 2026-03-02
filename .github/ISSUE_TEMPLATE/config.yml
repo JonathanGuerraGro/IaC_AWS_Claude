@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Documentacion IaC"
+    url: https://github.com/JonathanGuerraGro/IaC_AWS_Claude
+    about: "Consulta la documentacion antes de abrir un issue"

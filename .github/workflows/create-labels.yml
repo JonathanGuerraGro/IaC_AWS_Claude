@@ -1,0 +1,45 @@
+name: "Setup: Crear Labels"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  create-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Crear labels necesarios
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const labels = [
+              { name: "iac",          color: "0075ca", description: "Infrastructure as Code" },
+              { name: "s3",           color: "e4e669", description: "AWS S3 Bucket" },
+              { name: "acm",          color: "d93f0b", description: "AWS Certificate Manager" },
+              { name: "pending",      color: "fbca04", description: "Solicitud pendiente de procesar" },
+              { name: "in-review",    color: "0052cc", description: "PR generada, en revision" },
+              { name: "terraform",    color: "7057ff", description: "Cambio de Terraform" },
+              { name: "needs-review", color: "e11d48", description: "Requiere revision del equipo" },
+              { name: "done",         color: "0e8a16", description: "Recurso creado correctamente en AWS" },
+            ];
+
+            for (const label of labels) {
+              try {
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: label.name,
+                  color: label.color,
+                  description: label.description,
+                });
+                console.log(`✅ Creado: ${label.name}`);
+              } catch (e) {
+                if (e.status === 422) {
+                  console.log(`⚠️  Ya existe: ${label.name}`);
+                } else {
+                  throw e;
+                }
+              }
+            }

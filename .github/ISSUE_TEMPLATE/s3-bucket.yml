@@ -1,1 +1,106 @@
-bmFtZTogIuKYge+4jyBTb2xpY2l0YXIgUzMgQnVja2V0IgpkZXNjcmlwdGlvbjogIkNyZWEgdW4gbnVldm8gYnVja2V0IFMzIGVuIEFXUyIKdGl0bGU6ICJbUzNdICIKbGFiZWxzOiBbImlhYyIsICJzMyIsICJwZW5kaW5nIl0KYm9keToKICAtIHR5cGU6IGlucHV0CiAgICBpZDogYnVja2V0X25hbWUKICAgIGF0dHJpYnV0ZXM6CiAgICAgIGxhYmVsOiAiTm9tYnJlIGRlbCBidWNrZXQiCiAgICAgIGRlc2NyaXB0aW9uOiAiRGViZSBzZXIgw7puaWNvIGdsb2JhbG1lbnRlLiBVc2EgZ3Vpb25lcywgbm8gdW5kZXJzY29yZXMuIgogICAgICBwbGFjZWhvbGRlcjogIm1pLXByb3llY3RvLWFzc2V0cy1wcm9kIgogICAgdmFsaWRhdGlvbnM6CiAgICAgIHJlcXVpcmVkOiB0cnVlCgogIC0gdHlwZTogZHJvcGRvd24KICAgIGlkOiBlbnZpcm9ubWVudAogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6ICJFbnRvcm5vIgogICAgICBvcHRpb25zOgogICAgICAgIC0gZGV2CiAgICAgICAgLSBzdGFnaW5nCiAgICAgICAgLSBwcm9kCiAgICB2YWxpZGF0aW9uczoKICAgICAgcmVxdWlyZWQ6IHRydWUKCiAgLSB0eXBlOiBkcm9wZG93bgogICAgaWQ6IHJlZ2lvbgogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6ICJSZWdpw7NuIEFXUyIKICAgICAgb3B0aW9uczoKICAgICAgICAtIHVzLWVhc3QtMQogICAgICAgIC0gdXMtd2VzdC0yCiAgICAgICAgLSBldS13ZXN0LTEKICAgICAgICAtIGV1LWNlbnRyYWwtMQogICAgICAgIC0gYXAtc291dGhlYXN0LTEKICAgIHZhbGlkYXRpb25zOgogICAgICByZXF1aXJlZDogdHJ1ZQoKICAtIHR5cGU6IGRyb3Bkb3duCiAgICBpZDogdmVyc2lvbmluZwogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6ICLCv0hhYmlsaXRhciB2ZXJzaW9uYWRvPyIKICAgICAgb3B0aW9uczoKICAgICAgICAtICJ0cnVlIgogICAgICAgIC0gImZhbHNlIgogICAgdmFsaWRhdGlvbnM6CiAgICAgIHJlcXVpcmVkOiB0cnVlCgogIC0gdHlwZTogZHJvcGRvd24KICAgIGlkOiBwdWJsaWNfYWNjZXNzCiAgICBhdHRyaWJ1dGVzOgogICAgICBsYWJlbDogIsK/QmxvcXVlYXIgYWNjZXNvIHDDumJsaWNvPyIKICAgICAgZGVzY3JpcHRpb246ICJSZWNvbWVuZGFkbzogdHJ1ZSBwYXJhIGxhIG1heW9yw61hIGRlIGNhc29zIgogICAgICBvcHRpb25zOgogICAgICAgIC0gInRydWUiCiAgICAgICAgLSAiZmFsc2UiCiAgICB2YWxpZGF0aW9uczoKICAgICAgcmVxdWlyZWQ6IHRydWUKCiAgLSB0eXBlOiBpbnB1dAogICAgaWQ6IG93bmVyX3RlYW0KICAgIGF0dHJpYnV0ZXM6CiAgICAgIGxhYmVsOiAiRXF1aXBvIHByb3BpZXRhcmlvIgogICAgICBwbGFjZWhvbGRlcjogImJhY2tlbmQtdGVhbSIKICAgIHZhbGlkYXRpb25zOgogICAgICByZXF1aXJlZDogdHJ1ZQoKICAtIHR5cGU6IHRleHRhcmVhCiAgICBpZDoganVzdGlmaWNhdGlvbgogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6ICJKdXN0aWZpY2FjacOzbiIKICAgICAgZGVzY3JpcHRpb246ICLCv1BhcmEgcXXDqSBzZSB1c2Fyw6EgZXN0ZSBidWNrZXQ/IgogICAgICBwbGFjZWhvbGRlcjogIkFsbWFjZW5hbWllbnRvIGRlIGFzc2V0cyBlc3TDoXRpY29zIHBhcmEgbGEgYXBwIFgiCiAgICB2YWxpZGF0aW9uczoKICAgICAgcmVxdWlyZWQ6IHRydWUKCiAgLSB0eXBlOiBtYXJrZG93bgogICAgYXR0cmlidXRlczoKICAgICAgdmFsdWU6ICIjIyDwn4+377iPIFRhZ3Mgb2JsaWdhdG9yaW9zIgoKICAtIHR5cGU6IGlucHV0CiAgICBpZDogdGFnX2NlY28KICAgIGF0dHJpYnV0ZXM6CiAgICAgIGxhYmVsOiAiQ0VDTyAoQ2VudHJvIGRlIENvc3RvcykiCiAgICAgIGRlc2NyaXB0aW9uOiAiQ8OzZGlnbyBkZWwgY2VudHJvIGRlIGNvc3RvcyBwYXJhIGZhY3R1cmFjacOzbiIKICAgICAgcGxhY2Vob2xkZXI6ICJDQy0xMjM0IgogICAgdmFsaWRhdGlvbnM6CiAgICAgIHJlcXVpcmVkOiB0cnVlCgogIC0gdHlwZTogaW5wdXQKICAgIGlkOiB0YWdfYnVzaW5lc3NfdW5pdAogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6ICJCdXNpbmVzcyBVbml0IgogICAgICBkZXNjcmlwdGlvbjogIlVuaWRhZCBkZSBuZWdvY2lvIHJlc3BvbnNhYmxlIGRlbCByZWN1cnNvIgogICAgICBwbGFjZWhvbGRlcjogInBheW1lbnRzIgogICAgdmFsaWRhdGlvbnM6CiAgICAgIHJlcXVpcmVkOiB0cnVlCgogIC0gdHlwZTogaW5wdXQKICAgIGlkOiB0YWdfcHJvamVjdF9pZAogICAgYXR0cmlidXRlczoKICAgICAgbGFiZWw6ICJQcm9qZWN0IElEIgogICAgICBkZXNjcmlwdGlvbjogIklkZW50aWZpY2Fkb3IgZGVsIHByb3llY3RvIGVuIHR1IHNpc3RlbWEgZGUgZ2VzdGnDs24iCiAgICAgIHBsYWNlaG9sZGVyOiAiUFJPSi01Njc4IgogICAgdmFsaWRhdGlvbnM6CiAgICAgIHJlcXVpcmVkOiB0cnVlCg==
+name: "Solicitar S3 Bucket"
+description: "Crea un nuevo bucket S3 en AWS"
+title: "[S3] "
+labels: ["iac", "s3", "pending"]
+body:
+  - type: input
+    id: bucket_name
+    attributes:
+      label: "Nombre del bucket"
+      description: "Debe ser unico globalmente. Usa guiones, no underscores."
+      placeholder: "mi-proyecto-assets-prod"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: "Entorno"
+      options:
+        - dev
+        - staging
+        - prod
+    validations:
+      required: true
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: "Region AWS"
+      options:
+        - us-east-1
+        - us-west-2
+        - eu-west-1
+        - eu-central-1
+        - ap-southeast-1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: versioning
+    attributes:
+      label: "Habilitar versionado?"
+      options:
+        - "true"
+        - "false"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: public_access
+    attributes:
+      label: "Bloquear acceso publico?"
+      description: "Recomendado: true para la mayoria de casos"
+      options:
+        - "true"
+        - "false"
+    validations:
+      required: true
+
+  - type: input
+    id: owner_team
+    attributes:
+      label: "Equipo propietario"
+      placeholder: "backend-team"
+    validations:
+      required: true
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: "Justificacion"
+      description: "Para que se usara este bucket?"
+      placeholder: "Almacenamiento de assets estaticos para la app X"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Tags obligatorios"
+
+  - type: input
+    id: tag_ceco
+    attributes:
+      label: "CECO (Centro de Costos)"
+      description: "Codigo del centro de costos para facturacion"
+      placeholder: "CC-1234"
+    validations:
+      required: true
+
+  - type: input
+    id: tag_business_unit
+    attributes:
+      label: "Business Unit"
+      description: "Unidad de negocio responsable del recurso"
+      placeholder: "payments"
+    validations:
+      required: true
+
+  - type: input
+    id: tag_project_id
+    attributes:
+      label: "Project ID"
+      description: "Identificador del proyecto en tu sistema de gestion"
+      placeholder: "PROJ-5678"
+    validations:
+      required: true
